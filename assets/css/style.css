@@ -33,14 +33,15 @@ body {
 .container {
     overflow: auto;
     clear: both;
-    background-color: #0ee920;
+    background-color: #ffffff;
     width: 960px;
     padding: 20px;
     margin: 0 auto;
+    
 }
 
 #profile-image {
     float: left;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    height: 150px;
+    width: auto;
 }
