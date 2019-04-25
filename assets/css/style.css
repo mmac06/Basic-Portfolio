@@ -4,20 +4,20 @@ body {
 
 .name {
     background-color: #4aaaa5;
-    padding: 20px;
     float: left;
-    margin: 0px;
+    height: 60px;
 }
 
 .nav {
     clear: both;
     background-color: #ffffff;
-    padding: 10px;
+    height: 60px;
+  
 }
 
 .left{
     padding: 20px;
-    
+    float: right;
 }
 
 .center{
@@ -39,3 +39,8 @@ body {
     margin: 0 auto;
 }
 
+#profile-image {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
