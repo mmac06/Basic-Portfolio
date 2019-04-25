@@ -2,14 +2,39 @@ body {
     background-color: #dddddd;
 }
 
+#name {
+    background-color: #4aaaa5;
+    padding: 20px;
+    float: left;
+    margin: 0px;
+}
+
 #header {
+    clear: both;
     background-color: #ffffff;
+}
+
+
+#right{
+    padding: 20px;
+    float: right;
+}
+
+#center{
+    padding: 20px;
+    float: right;
+}
+
+#left{
+    padding: 20px;
+    float: right;
 }
 
 #container {
+    clear: both;
     background-color: #ffffff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#name {
-    background-color: #4aaaa5;
-}
