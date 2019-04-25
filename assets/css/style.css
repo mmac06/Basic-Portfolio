@@ -2,41 +2,40 @@ body {
     background-color: #dddddd;
 }
 
-#name {
+.name {
     background-color: #4aaaa5;
     padding: 20px;
     float: left;
     margin: 0px;
 }
 
-#header {
+.nav {
     clear: both;
     background-color: #ffffff;
     padding: 10px;
 }
 
-#left{
+.left{
     padding: 20px;
     
 }
 
-#center{
+.center{
     padding: 20px;
     float: right;
 }
 
-#right{
+.right{
     padding: 20px;
     float: right;
 }
 
-#container {
+.container {
     overflow: auto;
     clear: both;
     background-color: #0ee920;
     width: 960px;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
