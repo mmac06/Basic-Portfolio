@@ -12,12 +12,12 @@ body {
 #header {
     clear: both;
     background-color: #ffffff;
+    padding: 10px;
 }
 
-
-#right{
+#left{
     padding: 20px;
-    float: right;
+    
 }
 
 #center{
@@ -25,15 +25,17 @@ body {
     float: right;
 }
 
-#left{
+#right{
     padding: 20px;
     float: right;
 }
 
 #container {
+    overflow: auto;
     clear: both;
-    background-color: #ffffff;
+    background-color: #0ee920;
     width: 960px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
 }
