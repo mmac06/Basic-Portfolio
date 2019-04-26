@@ -4,41 +4,55 @@ body {
 
 .name {
     background-color: #4aaaa5;
+    color: white;
     float: left;
-    height: 50px;
+    height: 70px;
+    font-size: 35px;
     margin-top: 0;
-    margin-left: 130px;
-    padding: 20px 10px 10px 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding: 35px 10px 10px 10px;
 }
 
-#heading{
+#heading {
     color: #4aaaa5;
 }
 
 .nav {
     clear: both;
+    overflow: hidden;
+    /* float: left; */
     background-color: #ffffff;
-    height: 80px;
+    /* padding: 20px 10px; */
+    margin: 0px 0px 10px 0px;
   
 }
 
-.left{
+.nav a {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+/* .left{
     padding:30px;
-    float: right;
     color: #777777;
 }
 
 .center{
     padding: 30px;
-    float: right;
     color: #777777;
 }
 
 .right{
     padding: 30px;
-    float: right;
     color: #777777;
-}
+} */
 
 .container {
     overflow: auto;
@@ -49,8 +63,9 @@ body {
     margin: 0 auto;
 }
 
-.left-buttons {
-    margin-right: 130px; 
+.right-buttons {
+    /* margin-right: 130px; */
+    float: right; 
 }
 
 #profile-image {
