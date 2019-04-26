@@ -23,19 +23,19 @@ body {
 }
 
 .left{
-    padding:25px;
+    padding:30px;
     float: right;
     color: #777777;
 }
 
 .center{
-    padding: 25px;
+    padding: 30px;
     float: right;
     color: #777777;
 }
 
 .right{
-    padding: 25px;
+    padding: 30px;
     float: right;
     color: #777777;
 }
@@ -47,7 +47,10 @@ body {
     width: 960px;
     padding: 20px;
     margin: 0 auto;
-    
+}
+
+.left-buttons {
+    margin-right: 130px; 
 }
 
 #profile-image {
