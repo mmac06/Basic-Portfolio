@@ -1,72 +1,75 @@
 body {
-    background-color: #dddddd;
+    background-image: url("../images/solid_@2X.png");
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 .name {
     background-color: #4aaaa5;
-    color: white;
     float: left;
-    height: 70px;
-    font-size: 35px;
+    color: white;
+    height: 50px;
     margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 10px;
-    padding: 35px 10px 10px 10px;
+    margin-left: 130px;
+    padding: 20px 10px 10px 10px;
 }
 
-#heading {
+#heading{
     color: #4aaaa5;
 }
 
 .nav {
     clear: both;
-    overflow: hidden;
-    /* float: left; */
-    background-color: #ffffff;
-    /* padding: 20px 10px; */
-    margin: 0px 0px 10px 0px;
-  
+    background-color: white;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 80px;
+    /* width: 100%; */
+    /* margin: 0; */
 }
 
-.nav a {
-    float: left;
-    color: #777777;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
-  }
-
-/* .left{
-    padding:30px;
+.left{
+    /* padding:30px; */
+    float: right;
     color: #777777;
 }
 
 .center{
-    padding: 30px;
+    /* padding: 30px; */
+    float: right;
     color: #777777;
 }
 
 .right{
-    padding: 30px;
+    /* padding: 30px; */
+    float: right;
     color: #777777;
-} */
+}
 
 .container {
     overflow: auto;
     clear: both;
-    background-color: #ffffff;
+    background-color: white;
     width: 960px;
     padding: 20px;
     margin: 0 auto;
 }
 
 .right-buttons {
-    /* margin-right: 130px; */
+    margin-right: 130px;
+    margin-top: 30px;
     float: right; 
 }
+
+.right-buttons a {
+    color: #777777;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    line-height: 25px;
+  }
 
 #profile-image {
     float: left;
@@ -85,7 +88,10 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#666666;
+    background-color: #777777;;
     color: white;
     text-align: center;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 6px;
  }
