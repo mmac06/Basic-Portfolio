@@ -30,24 +30,19 @@ h1 {
     margin-top: 0;
     width: 100%;
     height: 80px;
-    /* width: 100%; */
-    /* margin: 0; */
 }
 
 .left{
-    /* padding:30px; */
     float: right;
     color: #777777;
 }
 
 .center{
-    /* padding: 30px; */
     float: right;
     color: #777777;
 }
 
 .right{
-    /* padding: 30px; */
     float: right;
     color: #777777;
 }
@@ -171,9 +166,10 @@ tr img {
     position: absolute;
     width: 300px;
     height: 50px;
-    line-height: 50px;
+    line-height: 10px;
     color: white;
     top: 150px;
+    text-align: center;
   }
 
   .tabletext2 {
@@ -181,9 +177,10 @@ tr img {
     position: absolute;
     width: 300px;
     height: 50px;
-    line-height: 50px;
+    line-height: 10px;
     color: white;
     top: 150px;
+    text-align: center;
   }
 
   .tabletext3 {
@@ -191,18 +188,21 @@ tr img {
     position: absolute;
     width: 300px;
     height: 50px;
-    line-height: 50px;
+    line-height: 10px;
     color: white;
     top: 370px;
+    text-align: center;
   }
+  
   .tabletext4 {
     background-color: #4aaaa5;
     position: absolute;
     width: 300px;
     height: 50px;
-    line-height: 50px;
+    line-height: 10px;
     color: white;
     top: 370px;
+    text-align: center;
   }
 
   .tabletext5 {
@@ -210,7 +210,8 @@ tr img {
     position: absolute;
     width: 300px;
     height: 50px;
-    line-height: 50px;
+    line-height: 10px;
     color: white;
     bottom: 20px;
+    text-align: center;
   }
